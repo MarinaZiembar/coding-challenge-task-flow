@@ -1,0 +1,41 @@
+.button{
+    padding: 12px 24px;
+    border-radius: 8px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:0;
+    margin-right: 8px;
+    font-weight: 500;
+    cursor:pointer;
+    transition: all ease 0.4s;
+    font-size: 16px;
+}
+.button:hover{
+    filter: brightness(1.1);
+    transform: translateY(-2px);
+    transition: all ease 0.4s;
+}
+.button:focus{
+    outline:0;
+    box-shadow: 0;
+    border:0;
+}
+
+.primary{
+    background-color: var(--primary-color);
+    color:var(--base-white);
+}
+.secondary{
+    background-color: var(--violet);
+    color:var(--base-white);
+}
+.disabled{
+    background-color: var(--grey);
+    color:var(--base-white);
+}
+.success{
+    background-color: var(--success-color);
+    color:var(--base-white);
+}

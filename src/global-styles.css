@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Fustat:wght@200..800&display=swap');
+
+*{
+  font-family: 'Fustat', sans-serif;
+  padding:0;
+  margin:0;
+}
+
+:root{
+  --background: #f0ccc9;
+  --base-black: #0B0B11;
+  --base-white: #FCFCFC;
+  --base-grey: #EAEAEA;
+  --primary-color: #F86D5C;
+  --success-color:#72CC8D;
+  --yellow: #FBC45D;
+  --purple: #D05BAC;
+  --violet:#7F5DBD;
+  --grey:#acb2bc;
+  --filter-white:invert(100%) sepia(0%) saturate(7500%) hue-rotate(168deg) brightness(100%) contrast(103%);
+  --filter-grey:invert(59%) sepia(0%) saturate(1192%) hue-rotate(143deg) brightness(90%) contrast(87%);
+  --filter-error:invert(55%) sepia(49%) saturate(1130%) hue-rotate(322deg) brightness(97%) contrast(100%);
+  --filter-primary:invert(54%) sepia(8%) saturate(7238%) hue-rotate(324deg) brightness(106%) contrast(94%);
+}

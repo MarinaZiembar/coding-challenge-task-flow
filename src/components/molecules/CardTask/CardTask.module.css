@@ -1,0 +1,70 @@
+.card{
+    padding:20px;
+    border: 1px solid var(--base-grey);
+    border-radius: 12px;
+    list-style-type: none;
+    margin: 8px;
+    width: 20%;
+    background-color: var(--base-white);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.title{
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 12px;
+}
+.title::first-letter{
+    text-transform: capitalize;
+}
+
+.actions{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 8px;
+    align-items: center;
+}
+.actionIcon{
+    background-color: transparent;
+    margin-left:14px;
+    border:0;
+    padding:0;
+    transition: all 0.3s ease;
+    cursor:pointer;
+}
+.actionIcon:hover{
+    transform: translateY(-2px);
+    transition: all 0.3s ease;
+}
+.editIcon{
+    filter:var(--filter-grey);
+    height: 20px;
+}
+.deleteIcon{
+    filter:var(--filter-error);
+    height: 20px;
+}
+
+.statusBadge{
+    font-size: 12px;
+    padding: 2px 8px;
+    border-radius: 4px;
+    color:var(--base-white);
+    width: fit-content;
+}
+.done{
+    background-color: var(--success-color);
+}
+.pending{
+    background-color: var(--yellow);
+}
+
+
+@media (max-width: 576px) {
+    .card{
+        padding:16px;
+        width: 100%;
+    }
+}

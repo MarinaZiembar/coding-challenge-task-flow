@@ -1,0 +1,14 @@
+.form{
+    width:100%;
+}
+.buttonsContainer{
+    display: flex;
+    margin-top: 32px;
+}
+
+@media (max-width: 576px) { 
+    .buttonsContainer{
+        flex-direction: column;
+        width:111%;
+    }
+}

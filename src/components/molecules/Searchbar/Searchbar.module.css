@@ -1,0 +1,25 @@
+.container{
+    border-radius: 8px;
+    border:1px solid var(--base-grey);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:25%;
+    position:absolute;
+    top:32px;
+    right: 32px;
+}
+.icon{
+    width:24px;
+    margin-right: 12px;
+    filter:var(--filter-primary);
+}
+
+@media (max-width:576px) {
+    .container{
+        width:90%;
+        position:unset;
+        margin-left: 5%;
+        margin-top: 32px;
+    }
+}

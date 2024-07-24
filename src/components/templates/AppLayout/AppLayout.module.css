@@ -1,0 +1,31 @@
+.container{
+    background-color: var(--background);
+    width:100vw;
+    height:100vh;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+.templateContainer{
+    background-color: var(--base-white);
+    border-radius: 32px;
+    height: 98vh;
+    width: 88vw;
+    margin-right: 1vh;
+    position:relative;
+    overflow-y: scroll;
+}
+
+@media (max-width: 576px) {
+    .container{
+        flex-direction: column;
+    }
+    .templateContainer{
+        background-color: var(--base-white);
+        border-radius: 16px 16px 0 0;
+        border-top-right-radius: 16px;
+        height: 105vh;
+        margin-right: 0vh;
+        width: 94vw;
+    }
+}
